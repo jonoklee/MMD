@@ -1,0 +1,15 @@
+// ----------------------------------------------------------------------------
+// Widget-youtube styles
+// ----------------------------------------------------------------------------
+.youtube-container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+  display: none;
+}

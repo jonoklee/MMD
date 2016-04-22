@@ -3,6 +3,13 @@ require 'dashing'
 configure do
   set :auth_token, 'd007528e4ge40691db3j'
 
+  get '/api/:widget/:command' do
+    widget = params[:widget]
+    send_event(widget, params)
+
+	200
+  end
+
   helpers do
     def protected!
       # Put any authentication code you want in here.
