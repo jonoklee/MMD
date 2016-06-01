@@ -1,0 +1,39 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  black;
+$value-color:       white;
+ 
+//$title-color:       rgba(255, 255, 255, 0.7);;
+//$moreinfo-color:    rgba(255, 255, 255, 0.8);;
+$title-color:       white;;
+$moreinfo-color:    white;;
+
+ 
+// ----------------------------------------------------------------------------
+// Widget-news styles
+// ----------------------------------------------------------------------------
+.widget-news {
+
+  background-color: $background-color;
+  vertical-align: baseline !important;
+
+  .headline-container {
+    display: none;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .description {
+    font-size: 0.8em;
+    color: $moreinfo-color;
+  }
+
+  .heading{
+    color: black;
+  }
+
+
+}
